@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import { useAuth } from "../user";
+// import { useAuth } from "../user";
 import "../../styles/Auth.css";
 
 const LoginForm = ({ onToggle }) => {
-  const { login } = useAuth();
+  // const { login } = useAuth();
   const [formData, setFormData] = useState({
     email: "",
     password: "",
@@ -18,7 +18,7 @@ const LoginForm = ({ onToggle }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    login(formData.email, formData.password);
+    // login(formData.email, formData.password);
   };
 
   return (

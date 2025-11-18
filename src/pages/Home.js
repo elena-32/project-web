@@ -1,21 +1,21 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { useAuth } from "../components/user";
+// import { useAuth } from "../components/user";
 import LoginForm from "../components/Login/LoginForm";
 import RegisterForm from "../components/Login/RegisterForm";
 import "../styles/Home.css";
 
 const Home = () => {
-  const { currentUser } = useAuth();
+  // const { currentUser } = useAuth();
   const navigate = useNavigate();
   const [showLogin, setShowLogin] = useState(true);
 
   // Redirect to dashboard if already logged in
-  React.useEffect(() => {
-    if (currentUser) {
-      navigate("/dashboard");
-    }
-  }, [currentUser, navigate]);
+  // React.useEffect(() => {
+  //   if (currentUser) {
+  //     navigate("/dashboard");
+  //   }
+  // }, [currentUser, navigate]);
 
   return (
     <div className="home-page">
