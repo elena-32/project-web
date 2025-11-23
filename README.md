@@ -121,12 +121,12 @@ online-doctor/
 
 ### Home Page
 
-![Home Page](./public/assets/screenshots/home.jpeg)
+![Home Page](./src/assets/screenshots/home.jpeg)
 
-### Services Page
+### dashboard Page
 
-![Services Page](./public/assets/screenshots/Services.jpg)
+![dashboard Page](./src/assets/screenshots/dashboard.jpeg)
 
 ### Events Page
 
-![Events Page](./public/assets/screenshots/Events.jpg)
+![Events Page](./src/assets/screenshots/Events.jpg)
