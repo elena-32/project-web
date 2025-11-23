@@ -117,3 +117,16 @@ online-doctor/
 ├── package.json         # Project dependencies and scripts
 └── README.md           # Project documentation
 ```
+## Screenshots
+
+### Home Page
+
+![Home Page](./public/assets/screenshots/home.jpeg)
+
+### Services Page
+
+![Services Page](./public/assets/screenshots/Services.jpg)
+
+### Events Page
+
+![Events Page](./public/assets/screenshots/Events.jpg)
