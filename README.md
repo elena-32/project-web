@@ -127,6 +127,14 @@ online-doctor/
 
 ![dashboard Page](./src/assets/screenshots/dashboard.jpeg)
 
-### Events Page
+### discussion Page
 
-![Events Page](./src/assets/screenshots/Events.jpg)
+![discussion Page](./src/assets/screenshots/discussion.jpeg)
+
+### update Page
+
+![update Page](./src/assets/screenshots/update.jpeg)
+
+### profile Page
+
+![profile Page](./src/assets/screenshots/profile.jpeg)
