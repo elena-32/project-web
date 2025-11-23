@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-// import { useAuth } from "../user";
+ import { useAuth } from "../user";
 import "../../styles/Auth.css";
 
 const RegisterForm = ({ onToggle }) => {
-  // const { register } = useAuth();
+  const { register } = useAuth();
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -23,7 +23,7 @@ const RegisterForm = ({ onToggle }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // register(formData);
+    register(formData);
   };
 
   return (
